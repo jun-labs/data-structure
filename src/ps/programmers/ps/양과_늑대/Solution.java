@@ -16,8 +16,8 @@ public class Solution {
             nodes[index] = new ArrayList();
         }
 
-        for (int[] e : edges) {
-            nodes[e[0]].add(e[1]);
+        for (int[] edge : edges) {
+            nodes[edge[0]].add(edge[1]);
         }
 
         dfs(1, 0, 0, new ArrayList<>());
